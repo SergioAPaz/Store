@@ -53,7 +53,7 @@ namespace Store
                 try
                 {
                     dbconnection.Open();
-                    SqlCommand command = new SqlCommand("SELECT nombre,Apellido,User,DateBorn,Puesto,Puesto,Correo FROM dbo.TMP_Registros",dbconnection);
+                    SqlCommand command = new SqlCommand("SELECT nombre,Apellido,Usuario,DateBorn,Puesto,Puesto,Correo FROM dbo.TMP_Registros", dbconnection);
                     SqlDataAdapter dataAdapter= new SqlDataAdapter (command);
                     DataSet dataset = new DataSet();
                     dataAdapter.Fill(dataset);

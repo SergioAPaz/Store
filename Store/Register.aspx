@@ -65,11 +65,11 @@
                     AutoGenerateColumns="False">
                     <Columns>
                         <asp:BoundField DataField="nombre" HeaderText="Nombre" Visible="true" />
-                        <asp:BoundField DataField="correo" HeaderText="Apellido" />
-                        <asp:BoundField DataField="correo" HeaderText="Usuario" />
-                        <asp:BoundField DataField="correo" HeaderText="Fecha de nacimiento" />
-                        <asp:BoundField DataField="correo" HeaderText="Puesto" />
-                        <asp:BoundField DataField="correo" HeaderText="Correo" />
+                        <asp:BoundField DataField="Apellido" HeaderText="Apellido" />
+                        <asp:BoundField DataField="Usuario" HeaderText="Usuario" />
+                        <asp:BoundField DataField="DateBorn" HeaderText="Fecha de nacimiento" />
+                        <asp:BoundField DataField="Puesto" HeaderText="Puesto" />
+                        <asp:BoundField DataField="Correo" HeaderText="Correo" />
                     </Columns>
                     <RowStyle CssClass="cursor-pointer" />
                 </asp:GridView>
